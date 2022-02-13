@@ -4,6 +4,8 @@ body{
     color: #3E3E3E;
     font-family: 'Roboto', sans-serif;
 }
+
+/* Top Nav Bar*/
 header nav a{
     font-weight: 500;
     transition: all 0.5s ease-in-out 0s !important;
@@ -14,6 +16,8 @@ header nav a:hover{
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
     transform: scale(1.05);
 }
+
+/* Top Banner */
 .buy-btn{
     background-image: linear-gradient(0.50turn, #A4BC46, #85A019);
     color: white;
@@ -45,6 +49,60 @@ header nav a:hover{
 .rounded-xl{
     border-radius: 12px;
 }
+
+/* Product Category */
+.category-wrapper{
+    height: 175px;
+    overflow: hidden;
+}
+.horizontal-category-wrapper{
+    height: 150px;
+}
+.category{
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out 0s;
+}
+.category:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    transform: scale(0.95);
+}
+.man-shoes{
+    background-image: url(images/categories/hikingshoe.jpg);
+}
+.woman-shoes{
+    background-image: url(images/categories/new.jpg);
+}
+.sweater{
+    background-image: url(images/categories/00_social.jpg);
+    background-position: top;
+}
+.tuxedo{
+    background-image: url(images/categories/tuxedo.jpg);
+    background-position: top;
+}
+.t-shirt{
+    background-image: url(images/categories/t-shirt.jpg);
+}
+.glass{
+    background-image: url(images/categories/glass.jpg);
+}
+.watch{
+    background-image: url(images/categories/watch.jpg);
+}
+
+/* Man & Woman Jacket */
 .product-card{
     transition: all 0.5s ease-in-out 0s;
     cursor: pointer;
@@ -60,4 +118,7 @@ header nav a:hover{
     display: block;
     height: 100%;
     margin: 0 auto;
+}
+.text-justify{
+    text-align: justify;
 }
